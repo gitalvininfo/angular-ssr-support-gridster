@@ -1,0 +1,13 @@
+<div style="display: block">
+	<!-- <ng-container *ngIf="!loading; else Loading"> -->
+		<canvas baseChart [datasets]="radarChartData" [labels]="radarChartLabels" [chartType]="radarChartType"
+			(chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+		</canvas>
+	<!-- </ng-container> -->
+
+	<ng-template #Loading>
+		<p>Loading...</p>
+	</ng-template>
+	
+
+</div>

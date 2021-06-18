@@ -1,0 +1,66 @@
+{
+  "dashboards": [
+    {
+      "id": 1,
+      "username": "Page 1",
+      "dashboard": [
+        {
+          "cols": 4,
+          "rows": 3,
+          "x": 6,
+          "y": 0,
+          "layerIndex": 3,
+          "name": "Line Chart",
+          "component": "Line Chart"
+        },
+        {
+          "cols": 4,
+          "rows": 3,
+          "x": 5,
+          "y": 0,
+          "layerIndex": 4,
+          "name": "Doughnut Chart",
+          "component": "Doughnut Chart"
+        },
+        {
+          "cols": 4,
+          "rows": 3,
+          "x": 0,
+          "y": 0,
+          "layerIndex": 3,
+          "name": "Line Chart",
+          "component": "Line Chart"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Page 2",
+      "dashboard": [
+        {
+          "cols": 4,
+          "rows": 3,
+          "x": 3,
+          "y": 0,
+          "layerIndex": 3,
+          "name": "Line Chart",
+          "component": "Line Chart"
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "name": "Radar Chart",
+      "identifier": "radar_chart"
+    },
+    {
+      "name": "Doughnut Chart",
+      "identifier": "doughnut_chart"
+    },
+    {
+      "name": "Line Chart",
+      "identifier": "line_chart"
+    }
+  ]
+}
